@@ -13,6 +13,7 @@
 		848ACF2528DB8093007E214E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2328DB8093007E214E /* Main.storyboard */; };
 		848ACF2728DB8095007E214E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2628DB8095007E214E /* Assets.xcassets */; };
 		848ACF2A28DB8095007E214E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2828DB8095007E214E /* LaunchScreen.storyboard */; };
+		848ACF3228DB83AD007E214E /* Kitty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF3128DB83AD007E214E /* Kitty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		848ACF2628DB8095007E214E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848ACF2928DB8095007E214E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848ACF2B28DB8095007E214E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848ACF3128DB83AD007E214E /* Kitty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				848ACF1D28DB8093007E214E /* AppDelegate.swift */,
 				848ACF1F28DB8093007E214E /* SceneDelegate.swift */,
+				848ACF3128DB83AD007E214E /* Kitty.swift */,
 				848ACF2128DB8093007E214E /* ViewController.swift */,
 				848ACF2328DB8093007E214E /* Main.storyboard */,
 				848ACF2628DB8095007E214E /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848ACF3228DB83AD007E214E /* Kitty.swift in Sources */,
 				848ACF2228DB8093007E214E /* ViewController.swift in Sources */,
 				848ACF1E28DB8093007E214E /* AppDelegate.swift in Sources */,
 				848ACF2028DB8093007E214E /* SceneDelegate.swift in Sources */,
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
